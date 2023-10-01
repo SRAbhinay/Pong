@@ -1,1 +1,3 @@
 # Pong
+
+This is a simple implementation of the classic game "Pong" using Python and the Pygame library. In Pong, two players control paddles to bounce a ball back and forth across the screen. The objective is to prevent the ball from passing your paddle while trying to score points by getting the ball past your opponent's paddle. The game features basic keyboard controls for both players and keeps track of their scores. It's a two-player game where each player can move their paddle up and down to intercept the ball. The first player to reach a certain score wins the game. It's a fun and engaging game that tests your reflexes and coordination.
