@@ -10,7 +10,7 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
  window = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Pong")
+ pygame.display.set_caption("Pong")
 
  player_paddle = pygame.Rect(50, HEIGHT // 2 - 50, 10, 100)
  opponent_paddle = pygame.Rect(WIDTH - 60, HEIGHT // 2 - 50, 10, 100)
