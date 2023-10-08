@@ -70,7 +70,7 @@ while running:
     window.blit(player_text, (50, 50))
     window.blit(opponent_text, (WIDTH - 70, 50))
 
-    pygame.display.flip()
+     pygame.display.flip()
 
      clock.tick(60)
 
