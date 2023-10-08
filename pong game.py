@@ -63,7 +63,7 @@ while running:
 
      pygame.draw.rect(window, WHITE, player_paddle)
      pygame.draw.rect(window, WHITE, opponent_paddle)
-    pygame.draw.ellipse(window, WHITE, ball)
+     pygame.draw.ellipse(window, WHITE, ball)
 
      player_text = font.render(str(player_score), True, WHITE)
      opponent_text = font.render(str(opponent_score), True, WHITE)
