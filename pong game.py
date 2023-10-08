@@ -40,7 +40,7 @@ while running:
     if keys[pygame.K_DOWN] and opponent_paddle.bottom < HEIGHT:
         opponent_paddle.y += PADDLE_SPEED
 
-    ball.x += BALL_SPEED[0] * ball_direction[0]
+     ball.x += BALL_SPEED[0] * ball_direction[0]
     ball.y += BALL_SPEED[1] * ball_direction[1]
 
     if ball.top <= 0 or ball.bottom >= HEIGHT:
