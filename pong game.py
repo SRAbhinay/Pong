@@ -67,7 +67,7 @@ while running:
 
     player_text = font.render(str(player_score), True, WHITE)
     opponent_text = font.render(str(opponent_score), True, WHITE)
-    window.blit(player_text, (50, 50))
+     window.blit(player_text, (50, 50))
      window.blit(opponent_text, (WIDTH - 70, 50))
 
      pygame.display.flip()
