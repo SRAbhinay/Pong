@@ -61,7 +61,7 @@ while running:
 
     window.fill(BLACK)
 
-    pygame.draw.rect(window, WHITE, player_paddle)
+     pygame.draw.rect(window, WHITE, player_paddle)
     pygame.draw.rect(window, WHITE, opponent_paddle)
     pygame.draw.ellipse(window, WHITE, ball)
 
